@@ -11,4 +11,6 @@ for i in range(10):
 	if sentence is not None:
 		txt += sentence + " "
 
-print(txt)
+post = "<shitpost> " + txt
+out = post[:139]
+print(out)
